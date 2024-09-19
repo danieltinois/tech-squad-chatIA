@@ -1,0 +1,48 @@
+/* Login.css */
+.login-container {
+  height: 100vh;
+  background-color: #1e1e1e; /* Dark background */
+}
+
+.login-form {
+  background-color: #2c2c2c; /* Darker card background */
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+  max-width: 400px;
+  width: 100%;
+}
+
+.login-form h2 {
+  margin-bottom: 1.5rem;
+  color: #e0e0e0; /* Light text color */
+}
+
+.login-form .form-control {
+  border-radius: 4px;
+  background-color: #3c3c3c; /* Dark input background */
+  color: #e0e0e0; /* Light input text color */
+  border: 1px solid #444; /* Darker border */
+}
+
+.login-form .btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.login-form .btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #004085;
+}
+
+.login-form p {
+  color: #e0e0e0; /* Light text color for paragraph */
+}
+
+.login-form a {
+  color: #007bff; /* Link color */
+}
+
+.login-form a:hover {
+  color: #0056b3; /* Link hover color */
+}
